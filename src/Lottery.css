@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    font-size: 3vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #141414;
+    color: white;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 4vw;
+    color: #fcecc9;
+  }
+  h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .ticket {
+    margin: 5vw auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: 10vw;
+    border: 2px solid aliceblue;
+    border-radius: 2vw;
+  }
+  
+  button {
+    margin: 3vw auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 8vw;
+    border: 2px solid aliceblue;
+    border-radius: 2vw;
+    background-color: #303841;
+    color: #98e5ec;
+  }
+  
+  button:hover {
+    background-color: #7fb7be;
+    color: #541f1f;
+    font-weight: 600;
+  }
+  
+  .lottery {
+    margin-top: 2vw;
+    border: 2px solid #141414;
+  }
+  .money-animation {
+    border: 2px solid #141414;
+    margin: 0px 0px 4px -300px;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer p {
+    text-align: center;
+    margin: 0;
+    padding: 10px 0; /* Adds a bit of space */
+    background-color: #141414; /* Optional styling */
+    color: white;
+    font-size: 0.8vw;
+  }
+  
+  .sign {
+    text-decoration: none;
+    color: white;
+  }
+  
+  @media (min-width: 768px) {
+    html,
+    body {
+      font-size: 20px;
+    }
+    .ticket {
+      width: 300px;
+      height: 100px;
+      margin-top: 5%;
+      border-radius: 40px;
+    }
+    button {
+      width: 150px;
+      height: 50px;
+      margin-top: 6%;
+      border-radius: 40px;
+    }
+  }
+  
